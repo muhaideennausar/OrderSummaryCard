@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e8ff url(images/pattern-background-desktop.svg) no-repeat;
+  background-size: contain;
+}
+
+.container{
+  height: auto;
+  width: 400px;
+}
+
+.container .heroImage{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.container section{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 0 0 20px 20px;
+}
+
+.container section h2{
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: #1b2b4d;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.container section .description{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #8b8ea2;
+  text-align: center;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.planContainer{
+  width: 100%;
+  height: auto;
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.plan{
+  display: flex;
+  align-items: center;
+}
+
+.plan img{
+  margin-right: 20px;
+}
+
+.plan p{
+  color: #8b8ea2;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.plan p span{
+  color: #1b2b4d;
+  font-weight: 900;
+}
+
+.planChange{
+  color: #382ae1;
+  font-weight: 900;
+  font-size: 0.8rem;
+  transition: .3s;
+  user-select: none;
+}
+
+.planChange:hover{
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.proceedButton{
+  width: 100%;
+  padding: 15px;
+  background-color: #382ae1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px #291f9941;
+  margin-bottom: 25px;
+  transition: .3s;
+  user-select: none;
+}
+
+.proceedButton:hover{
+  background-color: #766cf1;
+  box-shadow: 0 10px 20px #2d295841;
+}
+
+.cancel{
+  font-size: 1rem;
+  font-weight: 900;
+  color: #838aa1;
+  text-decoration: none;
+  transition: .3s;
+  user-select: none;
+}
+
+.cancel:hover{
+  color: #1b2b4d;
+}
