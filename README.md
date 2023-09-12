@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](/desktop-view.png)
+![Desktop View](desktop-view.png)
 
 ## My process
 
